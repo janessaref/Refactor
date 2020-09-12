@@ -4,11 +4,13 @@
     margin: 0;
 }
 
+/* moved font family to body from header and footer */
 body {
     background-color: #d9dcd6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* removed . before header */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -24,7 +26,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-nav {
+/* changed div to nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ nav {
     font-size: 20px;
 }
 
-ul {
+header nav ul {
     list-style-type: none;
 }
 
-li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,12 +49,22 @@ a {
     text-decoration: none;
 }
 
+/* removed unnecessary p since default text size is 16px */
+
+/* moved background image to HTML to add an alt tag */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+/* change from .content to main and moved this to create order to easily tie up HTML and CSS */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -62,12 +75,6 @@ a {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-/* change from .content to main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 aside {
