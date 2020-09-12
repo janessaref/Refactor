@@ -50,7 +50,6 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -147,29 +146,13 @@ h3 {
     color: #ffffff;
 }
 
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
+#search-engine-optimization img, 
+#online-reputation-management img, 
 #social-media-marketing img {
     max-height: 200px;
 }
 
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
