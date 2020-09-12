@@ -79,25 +79,23 @@ main {
     color: #ffffff;
 }
 
-#search-engine-optimization img, 
-#online-reputation-management img, 
-#social-media-marketing img {
-    max-height: 200px;
-}
-
+/* grouped into h2 with same styling */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* consolidated max-height into img classes instead of "#nameofid" of the images  */
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 /* changed name to aside */
@@ -151,7 +149,6 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 } */
-}
 
 footer {
     padding: 30px;
