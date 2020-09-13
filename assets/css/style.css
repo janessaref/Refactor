@@ -51,16 +51,16 @@ a {
 
 /* removed unnecessary p since default text size is 16px */
 
-/* moved background image to HTML to add an alt tag */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* change from .content to main and moved this to create order to easily tie up HTML and CSS */
+/* change from .content to main and moved these properties to create a logical order to easily tie up HTML and CSS */
 main {
     width: 75%;
     display: inline-block;
