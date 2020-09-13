@@ -11,7 +11,7 @@ This project serves as a good reminder that we would want websites to be accessi
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://janessaref.github.io/Refactor/)
 
 
 ## Authors
