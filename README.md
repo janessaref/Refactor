@@ -9,6 +9,14 @@ This project serves as a good reminder that we would want websites to be accessi
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+## Images of Project
+
+Attached below are screenshots in their screen sizes 400px, 768px, and 992px, respectively.
+
+![image](assets/images-of-website/website1.png)
+![image](assets/images-of-website/website2.png)
+
+
 ## Deployed Link
 
 * [See Live Site](https://janessaref.github.io/Refactor/)
